@@ -50,7 +50,7 @@ function App () {
       setImages([...images, ...res]);
       setPage(page + 1)
     })
-    .catch( () => setError(true) )
+    .catch( () => setError(true))
     .finally(() => setLoading(false) )
 
   }
